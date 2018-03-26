@@ -1,0 +1,17 @@
+phase 1 - company
+
+once the connection is received the server will than redirect the request to the departments that can provide the
+expectations and if the case has been assigned to anyone.
+
+each case number depending on the serial number will have a department.
+
+Example
+
+lets imagine:
+All case numbers start with 112, will belong to  accounting deparment
+All case numbets start with 221, will belong to a dispute deparment.
+
+
+Once the information is redirected and the permissions verified than the information is provided to the customer.
+
+The same case will have a Customer interFace and a Company/Department interface.
