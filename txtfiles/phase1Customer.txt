@@ -1,0 +1,24 @@
+Implement service where the division happens between the cusotmer the company and the employees.
+
+Example
+
+Main server will have two connections. one that will be granted to cusotmers and the one to company employes.
+
+1phase example of interaction -
+cusotmer requests a file or a case and the server verifies if the customers has permission to do so.
+case 11111 will be assigned to a deparment and will be assigned to an employee where that case will be in his case basket.
+this case will have a expection time to be resolved and that expectation will be assigned with the difficulty meter where
+though different levels of case resolution the case will have a decremental expectation that will be changed live.
+
+
+Communication beetween servers.
+
+Client request trough a client server where they will have access trough an online account and all the cases assigned to
+that customer will be represented within the website.
+
+TCP server.
+
+
+Servers will receive this request from the client once he access it in online account. the servers will than reveal the
+necessary information for the customer to feel that is case is being handled.
+
