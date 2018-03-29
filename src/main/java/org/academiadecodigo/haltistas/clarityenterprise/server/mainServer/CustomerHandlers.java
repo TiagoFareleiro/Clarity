@@ -10,20 +10,22 @@ public class CustomerHandlers {
 
 
     public static void main(String[] args) {
+
+        Executors executors;
         try {
             Socket socketToServer = new Socket("localhost", 6000);
             Executors.newCachedThreadPool();
 
 
-            PrintWriter msgToServer = new PrintWriter(socketToServer.getOutputStream(),true);
+            PrintWriter msgToServer = new PrintWriter(socketToServer.getOutputStream(), true);
+
 
             while (true) {
-
-                //logic in web when cusotmer access it case all relevant information is sent to Server in which will
+                //logic in web when customer access it case all relevant information is sent to Server in which will
                 //redirect and request case to department handling"
             }
 
-        }catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 

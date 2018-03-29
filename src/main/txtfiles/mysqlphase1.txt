@@ -1,0 +1,36 @@
+Initiate mysql
+
+
+Create tables that will relate between customer and company and between company and  employee.
+
+
+
+
+CustomerServer connects
+|
+|
+|
+|
+v
+Customer handlers
+|
+|
+|
+issues request to server that keeps al customer Handlers
+|
+|
+|
+v
+Server ---- Server sends request to employeeHandler - that send to EmployeeServer ---> that will that get the information
+                                                                                      necessary to provide what the
+                                                                                      customer needs, after flow goes
+                                                                                      back.
+
+
+Server holds Table with compose Primary Keys from customer and Employee
+
+EmployeeServer holds all Employees and all cases of the department in question
+two tables  one that only holds cases and dates and typeof case  and expection date until it´s giver to an employee
+
+CustomerServer holds all customers and cases that are opened by the customer with the company.
+this tables holds cusotmer loginID, this table is connected to a webpage.
